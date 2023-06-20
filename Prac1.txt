@@ -1,0 +1,22 @@
+public class Prac1
+{
+public static void main(String []args)
+{
+	int i=35;
+	boolean f=false;
+  for(int a=2;a<i;a++)
+  {
+   if(a%2==0)
+{
+  f=true;
+  break;
+}
+	if(f==true)
+	{
+		System.out.println("prime no");
+	else
+		System.out.println("not prime no");
+	}
+  }
+}
+}
